@@ -1,57 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Altair</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>          
-       <div class="wrapper__header">
-        <div class="navigation">
-            <nav>
-             <div class="logo"><img src="img/logo.png" alt=""></div>
-                <div class="nav">
-                    <div class="elem1">Home</div>
-                    <div class="elem">work</div>
-                    <div class="elem">process</div>
-                    <div class="elem">blog</div>
-                    <div class="elem">fun facts</div>
-                    <div class="elem"><img src="img/mail_logo.png" alt=""></div>
-                </div>   
-            </nav>
-        </div>
-        <div class="title">
-            <div class="text">
-                <div class="text_block_left">
-                   
-                    <div class="text_left_top"><span>T</span>hink</div>
-                    <div class="text_left_bottom">                                     
-                        let out the</div>
-                </div>
-                <div class="text_block_middle">
-                    
-                    <div class="text_middle">creative</div>
-                
-                </div>
-                <div class="text_block_right">
-                    
-                    <div class="text_right">beast</div>
-                
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper__header">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                 <span class="navbar-toggler-icon"></span>   
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto d-flex align-items-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" style="color:black;">home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">work</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">process</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">fun facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><img src="img/mail_logo.png" alt=""></a>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
-        </div>    
+        </nav>
+        <div class="title">
+          <div class="text">
+            <div class="text_block_left">
+              <div class="text_left_top"><span>T</span>hink</div>
+              <div class="text_left_bottom">
+                let out the
+              </div>
+            </div>
+            <div class="text_block_middle">
+              <div class="text_middle">creative</div>
+            </div>
+            <div class="text_block_right">
+              <div class="text_right">beast</div>
+            </div>
+          </div>
+        </div>
         <div class="mountain">
-    <img src="img/devices.png" alt="">
-        </div>
-        </div>
-    </header>
-    <div class="wrapper__ourwork">
 
-    </div>
-</body>
+          <div class="devices"></div>
+           
+        </div>
+      </div>
+    </header>
+    <!-- <div class="wrapper__ourwork"></div> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
